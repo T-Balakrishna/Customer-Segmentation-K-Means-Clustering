@@ -1,5 +1,5 @@
 # 🛍️ Customer Segmentation — K-Means Clustering
-
+ 
 ## 📘 Overview
 This project applies **K-Means Clustering** to segment retail customers based on purchase history and spending behavior. It helps businesses understand customer segments for targeted marketing.
 
