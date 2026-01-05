@@ -25,9 +25,6 @@ Features include:
 4. K-Means model training  
 5. Cluster visualization using 2D and 3D plots  
 
-## 📸 Sample Output
-![Customer Clusters Visualization](https://github.com/user-attachments/assets/customer-segmentation-plot.png)
-
 ## 📈 Results
 - Optimal number of clusters: 5  
 - Achieved meaningful groups representing low, average, and high-value customers  
