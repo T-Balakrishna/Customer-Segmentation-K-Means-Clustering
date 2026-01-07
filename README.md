@@ -1,38 +1,60 @@
-# 🛍️ Customer Segmentation — K-Means Clustering
- 
-## 📘 Overview
-This project applies **K-Means Clustering** to segment retail customers based on purchase history and spending behavior. It helps businesses understand customer segments for targeted marketing.
+# Customer Segmentation using K-Means Clustering
 
-## 🧠 Objective
-To automatically group customers with similar purchasing behaviors and aid marketing strategies using unsupervised learning.
+## Description
 
-## 📊 Dataset
-Dataset used: [Customer Segmentation Dataset (Kaggle)](https://www.kaggle.com/datasets/vjchoudhary7/customer-segmentation-tutorial-in-python)
+This project applies K-Means clustering to segment retail customers based on purchasing behavior and spending patterns. The goal is to identify meaningful customer groups that can support targeted marketing and business strategies.
 
-Features include:
-- Annual income  
-- Spending score  
-- Age  
+## Objective
 
-## ⚙️ Tech Stack
-- **Python:** NumPy, Pandas, Matplotlib, Seaborn, Scikit-learn  
-- **IDE:** Jupyter Notebook  
+To group customers with similar characteristics using unsupervised learning techniques and derive actionable insights from the resulting clusters.
 
-## 🚀 Workflow
-1. Data import and exploration  
-2. Feature scaling and outlier analysis  
-3. Use of the elbow method to determine optimal clusters  
-4. K-Means model training  
-5. Cluster visualization using 2D and 3D plots  
+## Dataset
 
-## 📈 Results
-- Optimal number of clusters: 5  
-- Achieved meaningful groups representing low, average, and high-value customers  
+Source: Kaggle – Customer Segmentation Dataset
+[https://www.kaggle.com/datasets/vjchoudhary7/customer-segmentation-tutorial-in-python](https://www.kaggle.com/datasets/vjchoudhary7/customer-segmentation-tutorial-in-python)
 
-## 🧩 Future Improvements
-- Incorporate demographics and transaction frequency  
-- Test other clustering algorithms (DBSCAN, Hierarchical)
+The dataset includes features such as annual income, spending score, and age.
 
-## 🧑‍💻 Author
-<strong>Balakrishna T</strong><br>
-💼 [GitHub](https://github.com/T-Balakrishna) • 🌐 [Portfolio](https://balakrishnat.vercel.app) • ✉️ [Email](https://mail.google.com/mail/?view=cm&to=tbalakrishna2005@gmail.com)  
+## Workflow
+
+* Data loading and initial exploration
+* Feature scaling and outlier analysis
+* Determination of optimal number of clusters using the elbow method
+* K-Means model training
+* Visualization of clusters using 2D and 3D plots
+
+## How to Run
+
+1. Clone the repository:
+
+   ```bash
+   git clone <repository-url>
+   cd <repository-folder>
+   ```
+2. Install required dependencies:
+
+   ```bash
+   pip install numpy pandas matplotlib seaborn scikit-learn
+   ```
+3. Download the dataset from Kaggle and place it in the project directory.
+4. Launch Jupyter Notebook:
+
+   ```bash
+   jupyter notebook
+   ```
+5. Open the notebook and run all cells sequentially.
+
+## Results
+
+The model identified five optimal clusters representing distinct customer groups, including low-value, mid-value, and high-value customers.
+
+## Tech Stack
+
+* Python (NumPy, Pandas, Scikit-learn)
+* Matplotlib, Seaborn
+* Jupyter Notebook
+
+## Future Enhancements
+
+* Include demographic and transaction frequency data
+* Experiment with alternative clustering algorithms such as DBSCAN and hierarchical clustering
